@@ -40,6 +40,7 @@
 ### Задание 3
 Привяжите созданный шаблон к двум хостам. Также привяжите к обоим хостам шаблон Linux by Zabbix Agent.
 ![Availabity](screenshots/LatestData.png)
+![Availabity](screenshots/groups.png)
 
 ### Задание 4
 Создайте свой кастомный дашборд.
@@ -56,7 +57,7 @@
 
 ### Скрипт для возврата ФИО или текущей даты
 ### Принимает аргумент: 1 - ФИО, 2 - дата
-
+![fio](screenshots/fio.png)
 ```bash
 case "$1" in
     "1")
@@ -73,6 +74,3 @@ case "$1" in
         exit 1
         ;;
 esac
-
-
-![fio](screenshots/fio.png)
