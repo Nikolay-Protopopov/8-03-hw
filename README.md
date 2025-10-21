@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`"Система мониторинга Zabbix"" - `Протопопов Николай Андреевич
+# Домашнее задание к занятию «Система мониторинга Zabbix. Часть 2» - Протопопов Николай Андреевич
 
 
 ### Инструкция по выполнению домашнего задания
@@ -32,15 +32,19 @@
 7. git push origin main
 
 ### Задание 1
-Установите Zabbix Server с веб-интерфейсом.
-![Login](screenshots/Login.png)
+Создайте свой шаблон, в котором будут элементы данных, мониторящие загрузку CPU и RAM хоста.
+![Task1](screenshots/Lesson1.png)
 ### Задание 2
-Установите Zabbix Agent на два хоста.
-![Configuration-Hosts](screenshots/Configuration-Hosts.png)
-![Availabity-report](screenshots/Availabity-report.png)
-![Availabity](screenshots/Monitoring-Latestdata.png)
+Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.
 
 ### Задание 3
-Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
-Поскольку у меня клиент за NAT настраивал в режиме Active. Требуется настройка клиента на Win, особенность в соответсвии поля Hostname указанного на клиенте и в регистрации хоста на zabbix.
-![Windows](screenshots/Windows.png)
+Привяжите созданный шаблон к двум хостам. Также привяжите к обоим хостам шаблон Linux by Zabbix Agent.
+![Availabity](screenshots/LatestData.png)
+
+### Задание 4
+Создайте свой кастомный дашборд.
+![Dashboard](screenshots/Dashboard.png)
+### Задание 5
+Создайте карту и расположите на ней два своих хоста.
+![Map](screenshots/MapEdit.png)
+![Map](screenshots/Map-lost-comm.png)
